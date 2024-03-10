@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Josefin Sans",sans-serif;
+    box-sizing: border-box;
+  
+}
+.container{
+  height:100vh;
+  width: 100%;
+ background-color:black;
+  background-size:cover;
+  background-position: center;
+} 
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:45px;
+    padding-left:8%;
+    padding-right:8%;
+}
+.logo{
+    color:white;
+    font-size:35px;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+span{
+    color:red;
+}
+
+
+    
+ 
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform:capitalize;
+    font-size:15px;
+}
+nav ul li a:hover{
+    color:aquamarine;
+    transition:4s;
+}
+.info{
+    position:absolute;
+    top:50%;
+    left:8%;
+    width:550px;
+    justify-content: space-between;
+    transform:translate(10%);
+}
+h1{
+    color:red;
+    margin:20px 0px 20px;
+    font-size:100px;
+}
+.pic{
+    width:250px;
+    height:250px;
+    border-radius:50px;
+    align-items: end;
+    
+}
+h3{
+    color:white;
+    font-size:40px;
+    margin-bottom: 50px;
+}
+h4{
+    color:white;
+    letter-spacing:2px;
+    font-size:50px;
+}
+.about{
+    width:100%;
+    padding:100px 0px;
+    background-color:black;
+    }
+.about img{
+    height:auto;
+    width:400px;
+    border-radius:10px;
+}
+.contentabout{
+    width:550px;
+    
+
+}
+.main{
+    width:1130px;
+    max-width:95%;
+    margin :0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.contentabout h2{
+    color:white;
+    font-size:75px;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+.contentabout h5{
+    color:white;
+    letter-spacing:2px;
+    font-size:22px;
+    margin-bottom:25px;
+    text-transform:capitalize;
+}
+.contentabout p{
+    color:white;
+    letter-spacing:1px;
+    line-height:28px;
+    font-size:18px;
+    margin-bottom:45px;
+}
+.skills{
+    background:black;
+    width:100%;
+    padding:100px 0px;
+}
+.title h2{
+    color:white;
+    font-size:75px;
+    width:1130px;
+    margin:30px auto;
+    text-align: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:400px;
+}
+.card{
+    height:365 px;
+    width:330px;
+    padding:20px 35px;
+    background:#191919;
+    border-radius:20px;
+    margin:15px;
+    position:relative;
+    overflow:hidden;
+    text-align:center;
+}
+.card i{
+    font-size:50px;
+    display:block;
+    text-align:center;
+    margin:25px 0px;
+    color:red;
+}
+.card p{
+    color:white;
+    font-size:20px;
+    margin-top:8px;
+
+    
+}    
+
+.card h5{
+    color:red;
+    font-size:25px;
+    margin-bottom:2px;
+}
+.tech:visited{
+    color:pink;
+    transition: 4s;
+}
+
+.card:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    background-color:aquamarine;
+    text-decoration-color: #191919;
+}
+
+
+.social-links i{
+    margin-left:50px;
+    width:45px;
+    
+    height:45px;
+    border-radius: 50%;
+    background-color:red;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    transition:0.5s;
+}
+.social-links::before{
+    content:"";
+    width:80%;
+    height:3px;
+    position: absolute;
+    top:42%;
+    left:-150px;
+    background-color:#494234;
+}
+.social-links i:hover{
+    transform:translateY(-5px);
+}
+#contact{
+    font-size: 50px;
+    font-style: italic;
+    margin:50px;
+    font-family:"Josefin Sans",sans-serif;
+}.social-links a{
+    text-decoration: none;
+}
