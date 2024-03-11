@@ -5,10 +5,10 @@ const Introduction=()=>{
     
     return(
         <>
-
-<div>
+        <div>
 <div className="infodiv">
     <nav>
+        <link title='Online craft' to =""></link>
         <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our Story</a></li>
