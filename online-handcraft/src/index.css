@@ -15,18 +15,19 @@
   
 }
 .infodiv{
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-position:fixed;
   background-size: 100%;
   position:relative;
   overflow:hidden;
   background-image: url("craft.jpeg");
+  
 
 }
 
 nav{
-  width:90%;
+  width: 100%;
   margin:auto;
   padding-top: 20px;
   display: flex;
@@ -162,7 +163,7 @@ body{
   background-image:url("./Components/leaf.jpg")
 }
 .App {
-  height: 70vh;
+  height: 100vh;
   width: 90%;
   background-position:auto;
   background-size: 100%;
@@ -182,6 +183,6 @@ body{
   height: 100vh;
   color:black;
   background-image:url("online-handcraft\src\Components\leaf.jpg");
-  height:100vh;
+  height:200vh;
   width:100%;
 }
