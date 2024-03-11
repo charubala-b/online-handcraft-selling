@@ -15,18 +15,19 @@
   
 }
 .infodiv{
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-position:fixed;
   background-size: 100%;
   position:relative;
   overflow:hidden;
   background-image: url("craft.jpeg");
+  
 
 }
 
 nav{
-  width:90%;
+  width: 100%;
   margin:auto;
   padding-top: 20px;
   display: flex;
@@ -102,6 +103,7 @@ body{
   display: flex;
   align-items: centre;
   justify-content: center;
+  background-position: fixed;
 }
 
 .image{
@@ -110,6 +112,45 @@ body{
   margin-top:80px;
   padding-left:60px;
   border-radius:20px solid black;
+}
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: absolute;
+  width: 40%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'hello';
+  cursor: pointer;
+  /* position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px); */
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
 }
 
 /*sellbuy*/
@@ -123,27 +164,25 @@ body{
   background-image:url("./Components/leaf.jpg")
 }
 .App {
-  height: 70vh;
+  height: 100vh;
   width: 90%;
   background-position:auto;
   background-size: 100%;
   position:relative;
   overflow:hidden;
- 
-  
 }
-
-
-
-
-
 .content {
   z-index: 1;
   text-align: center;
   color: black;
 }
+<<<<<<< HEAD
 .app{
   display: flex;
+=======
+.app
+{display: flex;
+>>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
   justify-content: center;
   align-items: center;
   padding-left:20px  50px;
@@ -154,6 +193,7 @@ body{
   color:darkgreen;
   background-color: darkgreen;
   background-image:url("online-handcraft\src\Components\leaf.jpg");
+<<<<<<< HEAD
   height:100vh;
   width:200%;
  
@@ -163,4 +203,38 @@ body{
   justify-content: center;
   display: flex;
  align-content: center;
+=======
+  height:200vh;
+  width:100%;
+}
+.subhead{
+  font-style:bold;
+  
+  font-size:20px;
+  margin:30px;
+}
+.heading{
+  font-style: italic;
+  font-size:50px;
+  margin:30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pictures{
+  display:flex;
+}
+.monopic{
+  height:400px;
+  width:350px;
+  background-color:aquamarine;
+  margin-left:40px;
+  padding:5px;
+  
+}
+.seeall{
+  margin-left:90%;
+  margin-bottom:20px;
+ font-style:italic;
+  font-size:30px;
+  margin-right:5px;
+>>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
 }
