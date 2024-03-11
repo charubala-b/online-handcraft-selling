@@ -12,9 +12,14 @@ const Introduction=()=>{
     
     return(
         <>
+<<<<<<< HEAD
+        <div>
+=======
 <div>
+>>>>>>> a198b7d355fe349dc065250f17e725598b6840b9
 <div className="infodiv">
     <nav>
+        <link title='Online craft' to =""></link>
         <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our Story</a></li>

@@ -103,6 +103,7 @@ body{
   display: flex;
   align-items: centre;
   justify-content: center;
+  background-position: fixed;
 }
 
 .image{
@@ -169,15 +170,14 @@ body{
   background-size: 100%;
   position:relative;
   overflow:hidden;
- 
-  
 }
 .content {
   z-index: 1;
   text-align: center;
   color: black;
 }
-.app{display: flex;
+.app
+{display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -185,4 +185,34 @@ body{
   background-image:url("online-handcraft\src\Components\leaf.jpg");
   height:200vh;
   width:100%;
+}
+.subhead{
+  font-style:bold;
+  
+  font-size:20px;
+  margin:30px;
+}
+.heading{
+  font-style: italic;
+  font-size:50px;
+  margin:30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pictures{
+  display:flex;
+}
+.monopic{
+  height:400px;
+  width:350px;
+  background-color:aquamarine;
+  margin-left:40px;
+  padding:5px;
+  
+}
+.seeall{
+  margin-left:90%;
+  margin-bottom:20px;
+ font-style:italic;
+  font-size:30px;
+  margin-right:5px;
 }
