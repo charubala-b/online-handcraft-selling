@@ -12,9 +12,12 @@
 }
 .info{
   display:flex;
+  background-color:  rgb(70, 104, 70);
   
 }
 .infodiv{
+  margin-top: 10px;
+  margin-left: 20px;
   height: 100vh;
   width: 100%;
   background-position:fixed;
@@ -22,11 +25,17 @@
   position:relative;
   overflow:hidden;
   background-image: url("craft.jpeg");
+<<<<<<< HEAD
   
+=======
+  background-repeat: no-repeat;
+  
+
+>>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
 }
 
 nav{
-  width:90%;
+  width: 100%;
   margin:auto;
   padding-top: 20px;
   display: flex;
@@ -163,19 +172,48 @@ body{
   background-image:url("./Components/leaf.jpg")
 }
 .App {
-  height: 70vh;
+  height: 100vh;
   width: 90%;
   background-position:auto;
   background-size: 100%;
   position:relative;
   overflow:hidden;
- 
-  
 }
 .content {
   z-index: 1;
   text-align: center;
   color: black;
+}
+<<<<<<< HEAD
+.app{
+  display: flex;
+=======
+.app
+{display: flex;
+>>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
+  justify-content: center;
+  align-items: center;
+  padding-left:20px  50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin-left: 20px auto;
+  height: 100vh;
+  color:darkgreen;
+  background-color: darkgreen;
+  background-image:url("online-handcraft\src\Components\leaf.jpg");
+<<<<<<< HEAD
+  height:100vh;
+  width:200%;
+ 
+}
+.sec-margin{
+  display: flex;
+  justify-content: center;
+  display: flex;
+ align-content: center;
+=======
+  height:200vh;
+  width:100%;
 }
 .subhead{
   font-style:bold;
@@ -209,6 +247,7 @@ body{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
+<<<<<<< HEAD
 }
 
 .pic{
@@ -230,4 +269,13 @@ body{
 }
 span{
   color:red;
+=======
+>>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
+}
+.sell{
+  background-color: rgb(70, 104, 70);
+}
+.more{
+  background-color: rgb(70, 104, 70);
+>>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
 }
