@@ -25,9 +25,13 @@
   position:relative;
   overflow:hidden;
   background-image: url("craft.jpeg");
+<<<<<<< HEAD
+  
+=======
   background-repeat: no-repeat;
   
 
+>>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
 }
 
 nav{
@@ -225,11 +229,19 @@ body{
 .monopic{
   height:400px;
   width:350px;
+<<<<<<< HEAD
   background-color:aquamarine;
   margin-left:40px;
   margin-bottom: 10px;
+=======
+   margin-left:40px;
+>>>>>>> 588e689e812d38df1429809aac91b3c46d35a0d7
   padding:5px;
   
+}
+.monopic:hover{
+  border:1px solid black;
+
 }
 .seeall{
   margin-left:90%;
@@ -237,10 +249,38 @@ body{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+.pic{
+  margin:10px;
+  height:280px;
+  width:90%;
+  padding:2px;
+}
+.hr{
+  width:200px;
+  background-color: black;
+ color:black;
+}
+
+.imagecontent{
+  margin:10px;
+  font-style: italic;
+
+}
+span{
+  color:red;
+=======
+>>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
+>>>>>>> 588e689e812d38df1429809aac91b3c46d35a0d7
 }
 .sell{
   background-color: rgb(70, 104, 70);
 }
 .more{
   background-color: rgb(70, 104, 70);
+>>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
 }
