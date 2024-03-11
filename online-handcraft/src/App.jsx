@@ -17,8 +17,12 @@ const App=()=>{
     <Slider/>  
     </section>
     <Popups/>    
+    <section className="sell">
       <Sellbuys/>
+      </section>
+      <section className="more">
       <Moreimages/>
+      </section>
   
 
     </>

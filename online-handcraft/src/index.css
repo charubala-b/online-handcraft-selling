@@ -12,9 +12,12 @@
 }
 .info{
   display:flex;
+  background-color:  rgb(70, 104, 70);
   
 }
 .infodiv{
+  margin-top: 10px;
+  margin-left: 20px;
   height: 100vh;
   width: 100%;
   background-position:fixed;
@@ -22,6 +25,7 @@
   position:relative;
   overflow:hidden;
   background-image: url("craft.jpeg");
+  background-repeat: no-repeat;
   
 
 }
@@ -215,4 +219,10 @@ body{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
+}
+.sell{
+  background-color: rgb(70, 104, 70);
+}
+.more{
+  background-color: rgb(70, 104, 70);
 }
