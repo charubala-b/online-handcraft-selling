@@ -5,19 +5,15 @@ const Sellbuys=()=>{
     return (
         <>
         <section class="Second">
-<div>
         <div className="App">
-          
+            <div className="sec-margin">
             <h6>Our Mission</h6>
             <p>Every purchase has purpose</p>
             <button>Buy</button>
             <button>Sell</button>
+            </div>
           </div>
-          </div>
-       
- 
-    </section>
-    </>
-      );
+        </section>
+    </>);
     }
     export default Sellbuys
