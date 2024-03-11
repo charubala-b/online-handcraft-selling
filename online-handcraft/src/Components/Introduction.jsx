@@ -12,15 +12,11 @@ const Introduction=()=>{
     
     return(
         <>
-<<<<<<< HEAD
 
         <div>
 
 <div>
-
-=======
 <div>
->>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
 <div className="infodiv">
     <nav>
         <link title='Online craft' to =""></link>
@@ -39,8 +35,9 @@ const Introduction=()=>{
 </div>
 </div>
 </div>
+</div>
 </>
-)
+);
     }
 
 export default Introduction;
