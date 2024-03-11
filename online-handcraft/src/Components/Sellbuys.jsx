@@ -13,15 +13,8 @@ const Sellbuys=()=>{
             <button>Sell</button>
             </div>
           </div>
-<<<<<<< HEAD
-          </div>
- 
-    </section>
-    </>
-    );
-=======
         </section>
-    </>);
->>>>>>> 90381c320b927b8d09afe6f90139b11304dc3e92
+     </>
+    );
     }
     export default Sellbuys

@@ -180,13 +180,11 @@ body{
   text-align: center;
   color: black;
 }
-<<<<<<< HEAD
 .app{
   display: flex;
-=======
+}
 .app
 {display: flex;
->>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
   justify-content: center;
   align-items: center;
   padding-left:20px  50px;
@@ -197,7 +195,6 @@ body{
   color:darkgreen;
   background-color: darkgreen;
   background-image:url("online-handcraft\src\Components\leaf.jpg");
-<<<<<<< HEAD
   height:100vh;
   width:200%;
  
@@ -207,7 +204,6 @@ body{
   justify-content: center;
   display: flex;
  align-content: center;
-=======
   height:200vh;
   width:100%;
 }
@@ -231,6 +227,7 @@ body{
   width:350px;
   background-color:aquamarine;
   margin-left:40px;
+  margin-bottom: 10px;
   padding:5px;
   
 }
@@ -240,7 +237,6 @@ body{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
->>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
 }
 .sell{
   background-color: rgb(70, 104, 70);
