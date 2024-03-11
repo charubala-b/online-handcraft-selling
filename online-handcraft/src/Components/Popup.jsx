@@ -5,7 +5,24 @@ const Popup=(props)=>{
         <>
              <div className="popup-box">
             <div className="box">
-             <h1 className="close-icon" onClick={handleClose}>hello</h1>
+             <button className="close-icon" onClick={handleClose}>x</button>
+             <div className="whole-list">
+             <div className="list">
+                <h4>bangles</h4>
+             </div>
+             <div className="list">
+                <h4>dress</h4>
+             </div>
+             <div className="list">
+                <h4>pots</h4>
+             </div>
+             <div className="list">
+                <h4>bags</h4>
+             </div>
+             <div className="list">
+                <h4>statues</h4>
+             </div>
+             </div>
             </div>
             </div>
         </>

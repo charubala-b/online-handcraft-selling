@@ -23,12 +23,17 @@
   background-size: 100%;
   position:static;
   overflow:hidden;
+<<<<<<< HEAD
   background-image: url("craft.jpeg");  
  
   background-repeat: no-repeat;
   
 
 
+=======
+  background-image: url("craft.jpeg");
+  background-repeat: no-repeat;
+>>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }
 
 nav{
@@ -140,6 +145,7 @@ body{
 }
 /* Popup style */
 .popup-box {
+  margin-left: 10px;
   position: fixed;
   background: #00000050;
   width: 100%;
@@ -150,7 +156,7 @@ body{
 
 .box {
   position: absolute;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   height: auto;
   max-height: 70vh;
@@ -160,6 +166,8 @@ body{
   padding: 20px;
   border: 1px solid #999;
   overflow: auto;
+  background-color: antiquewhite;
+  opacity: 60%;
 }
 
 .close-icon {
@@ -201,6 +209,7 @@ body{
   text-align: center;
   color: black;
 }
+<<<<<<< HEAD
 
 .app{
   display: flex;
@@ -209,6 +218,13 @@ body{
 .app
 {display: flex;
 
+=======
+.app{
+  display: flex;
+}
+.app
+{display: flex;
+>>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
   justify-content: center;
   align-items: center;
   padding-left:20px  50px;
@@ -219,7 +235,10 @@ body{
   color:darkgreen;
   background-color: darkgreen;
   background-image:url("online-handcraft\src\Components\leaf.jpg");
+<<<<<<< HEAD
 
+=======
+>>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
   height:100vh;
   width:200%;
  
@@ -229,7 +248,10 @@ body{
   justify-content: center;
   display: flex;
  align-content: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
   height:200vh;
   width:100%;
 }
@@ -251,6 +273,11 @@ body{
 .monopic{
   height:400px;
   width:350px;
+
+  background-color:aquamarine;
+  margin-left:40px;
+  margin-bottom: 10px;
+
    margin-left:40px;
   padding:5px;
   background-color:white;
@@ -271,7 +298,10 @@ i{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }
 
 .pic{
@@ -293,12 +323,33 @@ i{
 }
 span{
   color:red;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }
 .sell{
   background-color: rgb(70, 104, 70);
 }
 .more{
   background-color: rgb(70, 104, 70);
+<<<<<<< HEAD
 
+=======
+}
+.list{
+  padding: 10px;
+  background-color: #999;
+  margin-top: 5px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+.whole-list{
+  margin-left: 180px;
+}
+.list:hover{
+  box-shadow:2px 2px 4px #494234;
+  background-color: brown;
+>>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }

@@ -16,8 +16,7 @@ const App=()=>{
     <section className="info">
     <Introduction/>
     <Slider/>  
-    </section>
-    <Popups/>    
+    </section>  
     <section className="sell">
       <Sellbuys/>
       </section>
