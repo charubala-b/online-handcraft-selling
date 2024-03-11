@@ -1,8 +1,11 @@
+import { useState } from 'react'
 
 const Introduction=()=>{
+
+    
     return(
         <>
-<section className="info">
+
 <div>
 <div className="infodiv">
     <nav>
@@ -17,7 +20,13 @@ const Introduction=()=>{
 </div>
 </div>
 
-</section>
+
+
+
+
+
+
+
 </>
 )
     }

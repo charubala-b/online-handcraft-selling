@@ -22,6 +22,7 @@
   position:relative;
   overflow:hidden;
   background-image: url("craft.jpeg");
+  background-color:lightgrey;
 }
 
 nav{
@@ -70,3 +71,43 @@ body{
   background-color: white;
 }
 
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+  border-radius:40%;
+}
+
+.slide {
+  display: inline-block;
+
+  height: 200px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Buttons */
+
+
+
+.swiper{
+  width: 10rem;
+}
+.swiper-slide{
+  display: flex;
+  align-items: centre;
+  justify-content: center;
+}
+
+.image{
+  height:200%;
+  width:400px;
+  margin-top:80px;
+  padding-left:60px;
+  border-radius:20px solid black;
+}
