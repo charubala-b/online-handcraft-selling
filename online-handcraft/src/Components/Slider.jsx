@@ -1,5 +1,5 @@
 import React from "react";
-
+import '@fortawesome/fontawesome-free/css/all.css'
 import buddha from'./buddha.png';
 import feather from './feather.png'
 import pot from './pot.png'
@@ -34,6 +34,12 @@ function Slider() {
   
     return (
       <div className="slideshow">
+        
+        <button className="login">Login</button>
+       
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        
         <div className="slideshowSlider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
           {colors.map((backgroundImage, idx) => (
             <div className="slide" key={idx} >

@@ -23,11 +23,8 @@ const App=()=>{
       </section>
       <section className="more">
       <Moreimages/>
-<<<<<<< HEAD
       <Moreimages2/>
-=======
       </section>
->>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
   
 
     </>

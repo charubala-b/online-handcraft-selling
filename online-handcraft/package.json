@@ -10,16 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-
     "react-scripts": "^5.0.1",
-
-
-=======
-    "react-scripts": "^5.0.1",
->>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
     "reactjs-popup": "^2.0.6"
   },
   "devDependencies": {

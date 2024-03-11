@@ -19,19 +19,16 @@
   margin-top: 10px;
   margin-left: 20px;
   height: 100vh;
-  width: 100%;
-  background-position:fixed;
+  width: 100%; 
   background-size: 100%;
-  position:relative;
+  position:static;
   overflow:hidden;
-  background-image: url("craft.jpeg");
-<<<<<<< HEAD
-  
-=======
+  background-image: url("craft.jpeg");  
+ 
   background-repeat: no-repeat;
   
 
->>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
+
 }
 
 nav{
@@ -41,13 +38,14 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 nav ul{
   display:flex;
   list-style-type: none;
 }
 nav ul li{
-  margin: 0 5px;
+  margin: 0 10px;
 }
 nav ul li a{
   text-decoration: none;
@@ -70,9 +68,9 @@ nav ul li a::after{
   z-index:-1;
   transition:0.5s;
 }
-nav ul li a:hover:after{
-  width:100%;
-  
+
+a:hover{
+  text-decoration-line:underline;
 }
 
 
@@ -80,6 +78,25 @@ body{
   background-color: white;
 }
 
+/*slider*/
+
+.login{
+  text-decoration: none;
+  padding: 0.3rem 1.3rem;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #494234;
+  position:relative;
+  margin-left:50%;
+  margin-top:20px;
+  border-style: none;
+  background-color: rgb(70, 104, 70);
+
+}
+.login:hover{
+  text-decoration-line: underline;
+}
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
@@ -184,13 +201,14 @@ body{
   text-align: center;
   color: black;
 }
-<<<<<<< HEAD
+
 .app{
   display: flex;
-=======
+}
+
 .app
 {display: flex;
->>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
+
   justify-content: center;
   align-items: center;
   padding-left:20px  50px;
@@ -201,7 +219,7 @@ body{
   color:darkgreen;
   background-color: darkgreen;
   background-image:url("online-handcraft\src\Components\leaf.jpg");
-<<<<<<< HEAD
+
   height:100vh;
   width:200%;
  
@@ -211,7 +229,7 @@ body{
   justify-content: center;
   display: flex;
  align-content: center;
-=======
+
   height:200vh;
   width:100%;
 }
@@ -235,11 +253,17 @@ body{
   width:350px;
    margin-left:40px;
   padding:5px;
+  background-color:white;
   
 }
 .monopic:hover{
   border:1px solid black;
 
+
+}
+i{
+    margin: 0px 10px;
+  font-size: 25px;
 }
 .seeall{
   margin-left:90%;
@@ -247,7 +271,7 @@ body{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
-<<<<<<< HEAD
+
 }
 
 .pic{
@@ -269,13 +293,12 @@ body{
 }
 span{
   color:red;
-=======
->>>>>>> 7e83a534b5c04b57f6f6b1daa96f42be70dc10b9
+
 }
 .sell{
   background-color: rgb(70, 104, 70);
 }
 .more{
   background-color: rgb(70, 104, 70);
->>>>>>> ad687316969c4355b4493b1019fb8da8453c9a9e
+
 }

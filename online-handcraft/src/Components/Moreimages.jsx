@@ -1,3 +1,5 @@
+import '@fortawesome/fontawesome-free/css/all.css'
+
 const Moreimages=()=>{
     return (
         <>
@@ -13,22 +15,27 @@ const Moreimages=()=>{
 
                 
                 <div className="monopic">
+                  
+                <i class="fa-regular fa-heart"></i>
                   <img src="src\Components\feather.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 class="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
                 </div>
                 <div className="monopic">
+                  
+                <i class="fa-regular fa-heart"></i>
                       
                 <img src="src\Components\pots.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 class="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
+                  <h3 class="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
                 </div>
                 <div className="monopic">
 
+                <i class="fa-regular fa-heart"></i>
                           
                 <img src="src\Components\owl.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 class="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
+                  <h3 class="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
 
                 </div>
             </div>
