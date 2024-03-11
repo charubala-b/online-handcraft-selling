@@ -1,11 +1,11 @@
-const Moreimages=()=>{
+const Moreimages2=()=>{
     return (
         <>
         <section class="moreimages">
          
-            <h4 className="subhead">For this season</h4>
-            <h1 className="heading">Trending & Now --------</h1>
-            <button className="seeall">See All</button>
+           
+            <h1 className="heading">More Collections --------</h1>
+            
 
             <div className="pictures">
 
@@ -13,20 +13,20 @@ const Moreimages=()=>{
 
                 
                 <div className="monopic">
-                  <img src="src\Components\feather.png" className="pic"></img>
+                  <img src="src\Components\teacup.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 class="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
                 </div>
                 <div className="monopic">
                       
-                <img src="src\Components\pots.png" className="pic"></img>
+                <img src="src\Components\flower.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 class="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
                 </div>
                 <div className="monopic">
 
                           
-                <img src="src\Components\owl.png" className="pic"></img>
+                <img src="src\Components\bangles.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 class="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
 
@@ -37,4 +37,4 @@ const Moreimages=()=>{
         </>
     )
 }
-export default Moreimages
+export default Moreimages2

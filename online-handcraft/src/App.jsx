@@ -5,6 +5,7 @@ import Slider from "./Components/Slider"
 import Popups from "./Components/Popups"
 import Sellbuys from "./Components/Sellbuys"
 import Moreimages from "./Components/Moreimages"
+import Moreimages2 from "./Components/Moreimages2"
 
 
 
@@ -19,6 +20,7 @@ const App=()=>{
     <Popups/>    
       <Sellbuys/>
       <Moreimages/>
+      <Moreimages2/>
   
 
     </>

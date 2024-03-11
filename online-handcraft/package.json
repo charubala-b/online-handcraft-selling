@@ -12,10 +12,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
+
     "react-scripts": "^5.0.1",
-=======
->>>>>>> a198b7d355fe349dc065250f17e725598b6840b9
+
+
     "reactjs-popup": "^2.0.6"
   },
   "devDependencies": {

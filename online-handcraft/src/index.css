@@ -22,7 +22,7 @@
   position:relative;
   overflow:hidden;
   background-image: url("craft.jpeg");
-
+  
 }
 
 nav{
@@ -195,10 +195,13 @@ body{
 .monopic{
   height:400px;
   width:350px;
-  background-color:aquamarine;
-  margin-left:40px;
+   margin-left:40px;
   padding:5px;
   
+}
+.monopic:hover{
+  border:1px solid black;
+
 }
 .seeall{
   margin-left:90%;
@@ -206,4 +209,25 @@ body{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
+}
+
+.pic{
+  margin:10px;
+  height:280px;
+  width:90%;
+  padding:2px;
+}
+.hr{
+  width:200px;
+  background-color: black;
+ color:black;
+}
+
+.imagecontent{
+  margin:10px;
+  font-style: italic;
+
+}
+span{
+  color:red;
 }

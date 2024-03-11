@@ -12,11 +12,11 @@ const Introduction=()=>{
     
     return(
         <>
-<<<<<<< HEAD
+
         <div>
-=======
+
 <div>
->>>>>>> a198b7d355fe349dc065250f17e725598b6840b9
+
 <div className="infodiv">
     <nav>
         <link title='Online craft' to =""></link>
@@ -32,6 +32,7 @@ const Introduction=()=>{
         <li><a href="#">Contact</a></li>
     </ul>
     </nav>
+</div>
 </div>
 </div>
 </>
