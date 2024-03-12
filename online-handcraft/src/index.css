@@ -12,7 +12,7 @@
 }
 .info{
   display:flex;
-  background-color:  rgb(70, 104, 70);
+  background-color: rgb(70, 104, 70);
   
 }
 .infodiv{
@@ -23,17 +23,10 @@
   background-size: 100%;
   position:static;
   overflow:hidden;
-<<<<<<< HEAD
   background-image: url("craft.jpeg");  
- 
   background-repeat: no-repeat;
-  
-
-
-=======
   background-image: url("craft.jpeg");
   background-repeat: no-repeat;
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }
 
 nav{
@@ -58,7 +51,7 @@ nav ul li a{
   font-size: 20px;
   font-weight: bold;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #494234;
+  color: #000000;
   position:relative;
   z-index: 1;
 }
@@ -75,7 +68,8 @@ nav ul li a::after{
 }
 
 a:hover{
-  text-decoration-line:underline;
+  background-color: #cb9829;
+  border-radius: 10px;
 }
 
 
@@ -101,6 +95,8 @@ body{
 }
 .login:hover{
   text-decoration-line: underline;
+  background-color: #cb9829;
+  border-radius: 10px;
 }
 .slideshow {
   margin: 0 auto;
@@ -141,7 +137,8 @@ body{
   width:400px;
   margin-top:80px;
   padding-left:60px;
-  border-radius:20px solid black;
+  border-radius:20px;
+  box-shadow: 4px 4px 6px black;
 }
 /* Popup style */
 .popup-box {
@@ -209,7 +206,6 @@ body{
   text-align: center;
   color: black;
 }
-<<<<<<< HEAD
 
 .app{
   display: flex;
@@ -217,14 +213,12 @@ body{
 
 .app
 {display: flex;
-
-=======
+}
 .app{
   display: flex;
 }
 .app
 {display: flex;
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
   justify-content: center;
   align-items: center;
   padding-left:20px  50px;
@@ -235,10 +229,6 @@ body{
   color:darkgreen;
   background-color: darkgreen;
   background-image:url("online-handcraft\src\Components\leaf.jpg");
-<<<<<<< HEAD
-
-=======
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
   height:100vh;
   width:200%;
  
@@ -248,10 +238,6 @@ body{
   justify-content: center;
   display: flex;
  align-content: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
   height:200vh;
   width:100%;
 }
@@ -298,10 +284,6 @@ i{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
-<<<<<<< HEAD
-
-=======
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }
 
 .pic{
@@ -323,19 +305,12 @@ i{
 }
 span{
   color:red;
-<<<<<<< HEAD
-
-=======
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }
 .sell{
   background-color: rgb(70, 104, 70);
 }
 .more{
   background-color: rgb(70, 104, 70);
-<<<<<<< HEAD
-
-=======
 }
 .list{
   padding: 10px;
@@ -351,5 +326,4 @@ span{
 .list:hover{
   box-shadow:2px 2px 4px #494234;
   background-color: brown;
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
 }

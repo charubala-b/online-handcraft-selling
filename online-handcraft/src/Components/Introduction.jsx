@@ -12,22 +12,11 @@ const Introduction=()=>{
     
     return(
         <>
-<<<<<<< HEAD
-=======
-
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
         <div>
-<div>
-<<<<<<< HEAD
-
-<nav>
-        
-=======
-<div>
-<div className="infodiv">
+    <div>
+    <div>
     <nav>
         <link title='Online craft' to =""></link>
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
         <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our Story</a></li>
@@ -36,26 +25,18 @@ const Introduction=()=>{
         handleClose={togglePopup}
         />}
 
-        <li><a href="#">Sale</a></li>
+        <li className='at'><a href="#">Sale</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
     </nav>
     </div>
-<div className="infodiv">   
+    <div className="infodiv">   
 
+    </div>
 </div>
 </div>
-<<<<<<< HEAD
-
-</>
+    </>
 )
-};
-=======
-</div>
-</div>
-</>
-);
-    }
->>>>>>> 18d7acca6c966cf1f84327384db580464b244a38
+    };
 
 export default Introduction;

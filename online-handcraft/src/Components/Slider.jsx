@@ -2,7 +2,7 @@ import React from "react";
 import '@fortawesome/fontawesome-free/css/all.css'
 import buddha from'./buddha.png';
 import feather from './feather.png'
-import pot from './pot.png'
+import pot from './pots.png'
 import bag from './bag.png'
 function Slider() {
     const [index, setIndex] = React.useState(0);
