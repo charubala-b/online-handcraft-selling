@@ -26,17 +26,6 @@
 
   background-image: url("craft.jpeg");  
   background-repeat: no-repeat;
-
-  background-image: url("craft.jpeg");
-  background-repeat: no-repeat;
-
-
-
-
-  background-image: url("craft.jpeg");
-  background-repeat: no-repeat;
-
-
 }
 
 nav{
@@ -382,4 +371,20 @@ Popup{
   background-color:#999;  
   font-size: 50px;
   background-repeat: no-repeat;
+}
+.frontcontent{
+  background-color: #999;
+  width: 450px;
+  padding: 20px;
+  margin-top: 300px;
+  margin-left: 70px;
+  opacity: 80%;
+  border-radius: 10px;
+}
+.h1{
+  font-family: cursive;
+}
+.p1{
+  font-family: cursive;
+  font-size: larger;
 }

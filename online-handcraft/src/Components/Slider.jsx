@@ -7,6 +7,7 @@ import pot from './pots.png'
 import bag from './bag.png'
 import  { useState } from "react";
 import Popup from "reactjs-popup";
+import {Link} from "react-router-dom";
 
 
 function Slider() {
@@ -43,7 +44,7 @@ function Slider() {
   return (
     <div className="slideshow">
     
-      <button className="login">Login</button>
+      <Link className="login"  to="/connect" >Login</Link>
    <div className="icons">
       <div
         onMouseEnter={() => setHeartHovered(true)}

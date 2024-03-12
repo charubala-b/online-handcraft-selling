@@ -36,7 +36,15 @@ const Introduction=()=>{
     </nav>
     </div>
     <div className="infodiv">   
-
+    <div className='frontcontent'>
+    <div className='secondcontent'>
+        <h1 className='h1'>Embrace the Culture of India</h1>
+        <p className='p1'>"Explore India's finest handcrafted treasures online</p>
+        <p className='p1'>From intricate textiles to rustic wooden artifacts and elegant jewelry, </p>
+        <p className='p1'> discover unique creations that support skilled artisans </p>
+        <p className='p1'>and celebrate India's rich cultural heritage."</p>
+        </div>
+      </div>
     </div>
 </div>
 </>
