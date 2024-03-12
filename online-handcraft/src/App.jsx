@@ -24,7 +24,7 @@ const App=()=>{
       <Moreimages/>
       <Moreimages2/>
       </section>
-  
+
 
     </>
   )

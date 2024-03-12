@@ -13,10 +13,24 @@ const Introduction=()=>{
     return(
         <>
         <div>
+<<<<<<< HEAD
     <div>
     <div>
     <nav>
         <link title='Online craft' to =""></link>
+=======
+            <div>
+
+
+
+        
+
+<div>
+
+    <nav>
+        <link title='Online craft' to =""></link>
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
         <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our Story</a></li>
@@ -35,8 +49,20 @@ const Introduction=()=>{
     </div>
 </div>
 </div>
+<<<<<<< HEAD
     </>
 )
     };
+=======
+
+
+
+</div>
+
+</>
+);
+    }
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 
 export default Introduction;

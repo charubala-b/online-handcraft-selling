@@ -23,10 +23,24 @@
   background-size: 100%;
   position:static;
   overflow:hidden;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
   background-image: url("craft.jpeg");  
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-image: url("craft.jpeg");
   background-repeat: no-repeat;
+=======
+  
+
+
+
+  background-image: url("craft.jpeg");
+  background-repeat: no-repeat;
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 
 nav{
@@ -91,6 +105,17 @@ body{
   margin-top:20px;
   border-style: none;
   background-color: rgb(70, 104, 70);
+
+}
+
+.icons{
+  position: absolute;  
+  right: 40px;
+  top:25px;
+  display:flex;
+  padding-right:10px;
+  margin-right:50px;
+  justify-content: space-evenly;
 
 }
 .login:hover{
@@ -206,6 +231,10 @@ body{
   text-align: center;
   color: black;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 
 .app{
   display: flex;
@@ -213,12 +242,20 @@ body{
 
 .app
 {display: flex;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 .app{
   display: flex;
 }
 .app
 {display: flex;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
   justify-content: center;
   align-items: center;
   padding-left:20px  50px;
@@ -229,6 +266,12 @@ body{
   color:darkgreen;
   background-color: darkgreen;
   background-image:url("online-handcraft\src\Components\leaf.jpg");
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
   height:100vh;
   width:200%;
  
@@ -238,6 +281,12 @@ body{
   justify-content: center;
   display: flex;
  align-content: center;
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
   height:200vh;
   width:100%;
 }
@@ -284,6 +333,11 @@ i{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 
 .pic{
@@ -305,12 +359,24 @@ i{
 }
 span{
   color:red;
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 .sell{
   background-color: rgb(70, 104, 70);
 }
 .more{
   background-color: rgb(70, 104, 70);
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 .list{
   padding: 10px;
@@ -326,4 +392,20 @@ span{
 .list:hover{
   box-shadow:2px 2px 4px #494234;
   background-color: brown;
+<<<<<<< HEAD
+=======
+}
+
+/*Popup*/
+.fav{
+     background-color:lightgreen;  
+     font-style: italic;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+     
+}
+Popup{
+  text-decoration: none;
+  border-color: rgb(70, 104, 70);
+  width:10px;
+>>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
