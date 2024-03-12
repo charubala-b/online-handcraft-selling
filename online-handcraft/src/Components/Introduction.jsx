@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Popup from './Popup';
+import { Link } from 'react-router-dom';
 
 const Introduction=()=>{
     const [isOpen, setIsOpen] = useState(false);
@@ -12,11 +13,6 @@ const Introduction=()=>{
     return(
         <>
         <div>
-
-
-
-        
-
 <div>
 
     <nav>
@@ -24,7 +20,7 @@ const Introduction=()=>{
 
 <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Our Story</a></li>
+        <li><Link to="/ourstory">Our Story</Link></li>
         <li><a href="#" onClick={togglePopup}>Shop</a></li>
         {isOpen && <Popup
         handleClose={togglePopup}
