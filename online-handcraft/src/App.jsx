@@ -6,6 +6,8 @@ import Popups from "./Components/Popups"
 import Sellbuys from "./Components/Sellbuys"
 import Moreimages from "./Components/Moreimages"
 import Moreimages2 from "./Components/Moreimages2"
+import Craftforms from './Components/Craftforms'
+import Women from "./Components/Women"
 
 
 
@@ -23,6 +25,12 @@ const App=()=>{
       <section className="more">
       <Moreimages/>
       <Moreimages2/>
+      </section>
+      <section>
+        <Craftforms/>
+      </section>
+      <section>
+        <Women/>
       </section>
 
 

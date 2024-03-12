@@ -23,24 +23,20 @@
   background-size: 100%;
   position:static;
   overflow:hidden;
-<<<<<<< HEAD
-=======
 
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
   background-image: url("craft.jpeg");  
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-image: url("craft.jpeg");
-  background-repeat: no-repeat;
-=======
-  
-
-
 
   background-image: url("craft.jpeg");
   background-repeat: no-repeat;
 
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
+
+
+
+  background-image: url("craft.jpeg");
+  background-repeat: no-repeat;
+
+
 }
 
 nav{
@@ -209,53 +205,41 @@ body{
 }
 
 /*sellbuy*/
-.second{
-  background-color:white
-}
 .Second{
   display:flex;
   width:100%;
-  height:60vh;
-  background-image:url("./Components/leaf.jpg")
+  height:90vh;
+  background-image:url("./Components/leaf.jpg");
+  background-size: "cover";
+  height: 200%;
+  width:100%;
+  margin-top: 50px;
+  margin-left:50px;
+  
+  font-size: 50px;
+  padding-right: 70px;
+  padding-left:70px;
+  background-repeat: no-repeat;
+  background-color:rgb(70, 104, 70);
 }
 .App {
   height: 100vh;
-  width: 90%;
+  width: 100%;
   background-position:auto;
   background-size: 100%;
   position:relative;
   overflow:hidden;
 }
+
 .content {
   z-index: 1;
   text-align: center;
   color: black;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
-
-.app{
-  display: flex;
-}
 
 .app
 {display: flex;
-<<<<<<< HEAD
-=======
 
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
-}
-.app{
-  display: flex;
-}
-.app
-{display: flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
   justify-content: center;
   align-items: center;
   padding-left:20px  50px;
@@ -265,34 +249,23 @@ body{
   height: 100vh;
   color:darkgreen;
   background-color: darkgreen;
-  background-image:url("online-handcraft\src\Components\leaf.jpg");
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
   height:100vh;
   width:200%;
  
 }
 .sec-margin{
-  display: flex;
+  flex-direction: column;
+ align-content:center ;
   justify-content: center;
   display: flex;
+  padding-left: 50px;
  align-content: center;
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
-  height:200vh;
-  width:100%;
+ margin-left: 60px;
+  height:60px;
+  width:50%;
 }
 .subhead{
-  font-style:bold;
-  
+  font-style:bold;  
   font-size:20px;
   margin:30px;
 }
@@ -326,6 +299,10 @@ body{
 i{
     margin: 0px 10px;
   font-size: 25px;
+
+}
+ .monopic i:hover{
+color:red;
 }
 .seeall{
   margin-left:90%;
@@ -333,11 +310,7 @@ i{
  font-style:italic;
   font-size:30px;
   margin-right:5px;
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 
 .pic{
@@ -359,24 +332,13 @@ i{
 }
 span{
   color:red;
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 .sell{
   background-color: rgb(70, 104, 70);
 }
 .more{
   background-color: rgb(70, 104, 70);
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
 }
 .list{
   padding: 10px;
@@ -392,8 +354,6 @@ span{
 .list:hover{
   box-shadow:2px 2px 4px #494234;
   background-color: brown;
-<<<<<<< HEAD
-=======
 }
 
 /*Popup*/
@@ -407,5 +367,19 @@ Popup{
   text-decoration: none;
   border-color: rgb(70, 104, 70);
   width:10px;
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
+
+}
+
+/*Craftforms*/
+.Craft{
+  display:flex;
+  width:100%; 
+  height:90vh;
+  background-image:url("src\Components\craftformbg.png");
+  background-size: "cover";
+  height: 200%;
+  width:100%;
+  background-color:#999;  
+  font-size: 50px;
+  background-repeat: no-repeat;
 }

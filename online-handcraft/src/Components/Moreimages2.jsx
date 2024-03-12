@@ -16,9 +16,9 @@ const Moreimages2=()=>{
                 <div className="monopic">
                   
                 <i class="fa-regular fa-heart"></i>
-                  <img src="src\Components\teacup.png" className="pic"></img>
+                  <img src="src\Components\daimond.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 class="imagecontent">Ceramic painted cups-Hand painted  <span>$2999.00</span></h3>
+                  <h3 class="imagecontent">Pretty Handmade Chain  <span>$2999.00</span></h3>
                 </div>
                 <div className="monopic">
                       

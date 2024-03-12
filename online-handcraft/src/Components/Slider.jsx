@@ -1,20 +1,14 @@
-<<<<<<< HEAD
+
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.css'
 import buddha from'./buddha.png';
 import feather from './feather.png'
 import pot from './pots.png'
 import bag from './bag.png'
-=======
-import React, { useState } from "react";
-import "@fortawesome/fontawesome-free/css/all.css";
-import buddha from "./buddha.png";
-import feather from "./feather.png";
-import pot from "./pot.png";
-import bag from "./bag.png";
+import  { useState } from "react";
 import Popup from "reactjs-popup";
 
->>>>>>> 3a3fd84e8db0dd34054ef22495ce2ebe633e5788
+
 function Slider() {
   const [index, setIndex] = useState(0);
   const [heartHovered, setHeartHovered] = useState(false);
@@ -45,8 +39,10 @@ function Slider() {
     };
   }, [index]);
 
+
   return (
     <div className="slideshow">
+    
       <button className="login">Login</button>
    <div className="icons">
       <div
