@@ -6,13 +6,10 @@ const Addcart = ()=>{
     const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   
-  // Get the encoded data from the URL query parameter
   const encodedData = queryParams.get('data');
-
-  // Decode and parse the data back into an array of objects
   const decodedData = encodedData ? JSON.parse(decodeURIComponent(encodedData)) : [];
 
-  console.log(decodedData); // Use the decoded data as needed
+  console.log(decodedData); 
 
 
   const tableRows = decodedData.map((element) => {
