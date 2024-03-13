@@ -27,6 +27,8 @@ const Moreimages=()=>{
                   <img src="src\Components\feather.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -35,6 +37,8 @@ const Moreimages=()=>{
                 <img src="src\Components\pots.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -43,6 +47,8 @@ const Moreimages=()=>{
                 <img src="src\Components\owl.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
 
                 </div>
             </div>
