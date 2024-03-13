@@ -16,18 +16,18 @@ const Introduction=()=>{
         <div>
 <div>
 
-    <nav>
+    <nav >
         <link title='Online craft' to =""></link>
 
 <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="\">Home</a></li>
         <li><Link to="/ourstory">Our Story</Link></li>
         <li><a href="#" onClick={togglePopup}>Shop</a></li>
         {isOpen && <Popup
         handleClose={togglePopup}
         />}
 
-        <li className='at'><a href="#">Sale</a></li>
+        <li className='at'><Link to="/sale">Sale</Link></li>
         <li><a href="#">Contact</a></li>
     </ul>
     </nav>
@@ -47,9 +47,4 @@ const Introduction=()=>{
 </>
     )
         }
-
-
-
-
-
 export default Introduction;

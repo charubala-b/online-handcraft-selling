@@ -12,7 +12,7 @@
 }
 .info{
   display:flex;
-  background-color: rgb(70, 104, 70);
+  background-color: #66492f	;
   
 }
 .infodiv{
@@ -406,15 +406,15 @@ Popup{
   font-size: larger;
 }
 .content-first{
-  background-color: #676a37;
-  height: 600px;
+  background-color: #838746;
+  height: 750px;
 }
 .infos{
   width: 800px;
   margin-top: 120px;
 }
 .description-data{
-  font-size: larger;
+  font-size:20px;
   font-family: cursive;
   margin-left: 10px;
 }
@@ -422,6 +422,97 @@ Popup{
   font-size: 45px;
   font-family: cursive;
   margin-left: 10px;
+}
+.top{
+  position: sticky;
+  top: 0%;
+}
+.whole{
+  background-color: #676a37;
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+.first{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  padding: 5%;
+  margin-top: 2px;
+  opacity: 60%;
+}
+.form{
+ padding: 5px;
+}
+#username{
+  width: 250px;
+  height: 50px;
+  border: 2px solid black;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: larger;
+}
+#password{
+  width: 250px;
+  height: 50px;
+  border: 2px solid black;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: larger;
+}
+#addentry{
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  margin-left: 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.login-head{
+  margin-left: 70px;
+  font-family: cursive;
+}
+.content-second{
+  background-color: #bca963;
+  height: 750px;
+}
+.infos2{
+  width: 1000px;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+.info2{
+  font-size: 45px;
+  font-family: cursive;
+  margin-left: 20px;
+}
+.title-name1{
+  font-family: cursive;
+}
+.title-name-side1{
+  font-family: cursive;
+}
+.title-name-side2{
+  font-family: cursive;
+}
+.gayu{
+  border-radius: 20%;
+  width: 300px;
+  height: 400px;
+  margin-left: 30px;
+}
+.dharshi{
+border-radius: 20%;
+width: 300px;
+height: 400px;
+margin-left: 30px;
+}
+.charu{
+border-radius: 20%;
+width: 300px;
+height: 400px;
+margin-left: 30px;
 }
 
 .buy{
@@ -521,4 +612,77 @@ Popup{
     width:40%;
     height:100%;
   
+  }
+  .store{
+    background-color: #376a6a;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sale{
+    background-color: #5ce382;
+    width: 700px;
+    height: 500px;
+
+  }
+  #Oname{
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #Address{
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 134px;
+  }
+  #Amount{
+    width: 200px;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 125px;
+  }
+  #upload{
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+
+  }
+  #sale-button{
+    width: 200px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: #797368;
+  }
+  .Onamel{
+    font-size: 25px;
+    background-color: rgb(212, 152, 152);
+  }
+  .Address1{
+    font-size: 25px;
+    background-color: rgb(212, 152, 152);
+  }
+  .Amount1{
+    font-size: 30px;
+    background-color: rgb(212, 152, 152);
+    margin-top: 100px;
+  }
+  .saleform{
+    margin-left: 150px;
+  }
+  .sale-details{
+    font-size: 35px;
+    margin-left: 80px;
+  }
+  .add-image{
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .file{
+      width: 20px;
+      height: 20px;
   }

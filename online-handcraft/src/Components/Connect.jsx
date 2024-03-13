@@ -43,10 +43,20 @@ const Connect = () => {
 
     return (
         <>
-            <h1>hello</h1>
+        <div className='whole'>
+        <div className='first'>
+            <div>
+            <form className='form'>
+            <h1 className='login-head'>Login</h1>
             <input type="text" placeholder="john" id="username"/>
+            <br/>
             <input type="password" placeholder="3243" id="password"/>
+            <br/>
             <button id="addentry" type="button" onClick={handleAddNewEntry}>Submit</button>
+            </form>
+            </div>
+        </div>
+        </div>
         </>
     );
 };
