@@ -49,6 +49,7 @@ const router=createBrowserRouter([
    path:"/seeall",
    element:<SeeAll/>
   }
+  
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router}/>
