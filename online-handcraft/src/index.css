@@ -226,11 +226,21 @@ body{
   width:30%;
   font-size:large;
   font-style: italic;
-
+  padding:5px;
+  }
+.buy1:hover{
+  background-color:#4CAF50;
 }
 .sell1{
   width:30%;
+  padding:5px;
+  font-size:large;
+  font-style: italic;
 }
+.sell1:hover{
+  background-color:#4CAF50;
+}
+
 
 .content {
   z-index: 1;
@@ -470,14 +480,13 @@ Popup{
 
 .Head{
   background-image:url("./Components/craftformbg.png");
-
   background-position: top left;
   background-size:cover;
   height:60vh;
   text-align: left;
   display: flex;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
   font-size: larger;
 
 }
