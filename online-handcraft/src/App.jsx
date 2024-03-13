@@ -10,6 +10,10 @@ import Craftforms from './Components/Craftforms'
 import Women from "./Components/Women"
 import { Outlet } from "react-router-dom"
 import Workingphase from "./Components/Workingphase"
+import Contact from "./Components/Contact"
+import SocialIcons from "./Components/SocialIcons"
+import Men from "./Components/Men"
+import Checkout from "./Components/Checkout"
 
 
 
@@ -38,6 +42,15 @@ const App=()=>{
       <section>
       <Workingphase/> 
       </section>
+      <section>
+        <Men/>
+      </section>
+      <section>
+        <Contact/>
+        <SocialIcons/>
+      </section>
+      <Checkout/>s
+
       <Outlet/>
        
     </>

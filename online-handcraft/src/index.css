@@ -269,6 +269,7 @@ body{
   font-style:bold;  
   font-size:20px;
   margin:30px;
+  margin-bottom: 10px;;
 }
 .heading{
   font-style: italic;
@@ -685,4 +686,110 @@ margin-left: 30px;
   .file{
       width: 20px;
       height: 20px;
+  }
+
+  .contact-content{
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(70, 104, 70) ;
+  }
+  .contact-content .contact-title h4{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 10px;
+  
+  }
+  .contact-content .contact-title p{
+    padding-bottom: 20px;
+  }
+  .contact{
+    max-width: 700px;
+    margin: auto;
+    border-radius: 45px;
+  }
+  .contact input,.contact textarea{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color:rgb(246, 246, 234);
+  }
+  
+  .contact .submit{
+    width: auto;
+    background-color: rgb(49, 177, 23);
+    padding: 10px 40px;
+    font-weight:bold ;
+    font-size: 18px;
+    color: aliceblue;
+  }
+  .contact .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  #msg{
+    color: #fff;
+    font-size: 20px;
+    margin-top: -8px;
+    display: block;
+  }
+
+  .social-container {
+    padding: 25px 50px;
+     margin-top: 250px;
+    transition: transform 250ms;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  
+  
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+    margin-top:10px;
+  }
+  
+  a.Linkedin {
+    color: #49a1eb;
+    margin-top:10px ;
+  }
+  
+  a.instagram {
+    color: black;
+    margin-top:10px ;
+  }
+
+  .buy1{
+    width:30%;   
+    font-size:13px;
+    padding:3px;
+    font-style: italic;
+    }
+  .buy1:hover{
+    background-color:#4CAF50;
+  }
+  .sell1{
+    width:30%;
+    padding:3px;
+    margin-left:50px;
+    font-size:13px;
+    font-style: italic;
+  }
+  .sell1:hover{
+    background-color:#4CAF50;
+  }
+
+  .personal{
+    background-color:#376a6a
   }
