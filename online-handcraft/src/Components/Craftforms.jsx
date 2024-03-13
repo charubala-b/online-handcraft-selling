@@ -1,24 +1,26 @@
+import Counter from "./Counter"
+
 const Craftforms=()=>{
 
 
     return (
         <>
-        <section class="Craft">
-        <div classname= "Head">
-          <div classname="explore">
+        <section className="Craft">
+        <div className= "Head">
+          <div className="explore">
             <p>Explore a wide selection of craft forms</p>
-            <a href="/Learn More">Learn More</a>
+            <Counter/>
+            
             </div>
-            <div classname="numberform">
+            <div className="numberform">
                 <h3>100</h3>
                 <h4>CRAFT FORMS</h4>
             </div>
-            <div classname="fimage">
-
-            </div>
+            
             
         </div>
-
+       
+     
 
         
  

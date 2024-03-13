@@ -1,14 +1,14 @@
 import '@fortawesome/fontawesome-free/css/all.css'
 
-const Women=()=>{
+const SeeAll=()=>{
     return (
         <>
         <section className="moreimages">
          
            
-        <h4 className="subhead">For women</h4>
-            <h1 className="heading">Choice for <p>the season --------</p></h1>
-            <button className="seeall">See All</button>
+        <h4 className="subhead">For all</h4>
+            <h1 className="heading">Trending....</h1>
+          
 
             <div className="pictures">
 
@@ -18,7 +18,7 @@ const Women=()=>{
                 <div className="monopic">
                   
                 <i className="fa-regular fa-heart"></i>
-                  <img src="src\Components\earings.jpg" className="pic"></img>
+                  <img src="src\Components\trend1.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Handmade Earrings <span>$540.00</span></h3>
                 </div>
@@ -26,7 +26,7 @@ const Women=()=>{
                   
                 <i className="fa-regular fa-heart"></i>
                       
-                <img src="src\Components\handbag.jpeg" className="pic"></img>
+                <img src="src\Components\trend2.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Handmade bags-Unique <span>$1299.00</span></h3>
                 </div>
@@ -34,7 +34,7 @@ const Women=()=>{
 
                 <i className="fa-regular fa-heart"></i>
                           
-                <img src="src\Components\women and  crafts.jpg" className="pic"></img>
+                <img src="src\Components\trend3.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Wholesale Products <span>$2799.00</span></h3>
 
@@ -48,7 +48,7 @@ const Women=()=>{
       
         <section className="moreimages">
          
-            <h4 className="subhead">More...</h4>
+            <h4 className="subhead"></h4>
            
                 
 
@@ -60,7 +60,7 @@ const Women=()=>{
                 <div className="monopic">
                   
                 <i className="fa-regular fa-heart"></i>
-                  <img src="src\Components\chain.jpg" className="pic"></img>
+                  <img src="src\Components\trend4.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
                 </div>
@@ -68,7 +68,7 @@ const Women=()=>{
                   
                 <i className="fa-regular fa-heart"></i>
                       
-                <img src="src\Components\jewellery.jpeg" className="pic"></img>
+                <img src="src\Components\trend5.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
                 </div>
@@ -76,7 +76,7 @@ const Women=()=>{
 
                 <i className="fa-regular fa-heart"></i>
                           
-                <img src="src\Components\beads.jpg" className="pic"></img>
+                <img src="src\Components\trend6.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
 
@@ -90,4 +90,4 @@ const Women=()=>{
 
       
 
-export default Women
+export default SeeAll
