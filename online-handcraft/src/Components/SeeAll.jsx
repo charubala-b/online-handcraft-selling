@@ -6,7 +6,6 @@ const SeeAll=()=>{
         <section className="moreimages">
          
            
-        <h4 className="subhead">For all</h4>
             <h1 className="heading">Trending....</h1>
           
 
@@ -20,7 +19,9 @@ const SeeAll=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\trend1.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Handmade Earrings <span>$540.00</span></h3>
+                  <h3 className="imagecontent">Decor Lamp <span>$540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -28,7 +29,9 @@ const SeeAll=()=>{
                       
                 <img src="src\Components\trend2.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Handmade bags-Unique <span>$1299.00</span></h3>
+                  <h3 className="imagecontent">Handmade Earrings <span>$799.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -36,13 +39,15 @@ const SeeAll=()=>{
                           
                 <img src="src\Components\trend3.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Wholesale Products <span>$2799.00</span></h3>
+                  <h3 className="imagecontent">Cotton Printed Maxi <span>$1799.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
 
                 </div>
             </div>
 
         </section>
-
+  <br></br>
 
  
       
@@ -62,7 +67,9 @@ const SeeAll=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\trend4.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
+                  <h3 className="imagecontent">Bracelets <span>$2540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -70,7 +77,9 @@ const SeeAll=()=>{
                       
                 <img src="src\Components\trend5.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
+                  <h3 className="imagecontent">Wall decors <span>$4599.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -78,8 +87,9 @@ const SeeAll=()=>{
                           
                 <img src="src\Components\trend6.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
-
+                  <h3 className="imagecontent">Handmade wollen pilow  <span>$1540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
             </div>
 

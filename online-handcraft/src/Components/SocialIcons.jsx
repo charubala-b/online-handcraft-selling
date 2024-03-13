@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 function SocialIcons() {
   return (
-<div class="social-container">
+<div className="social-container">
       <a href="https://www.youtube.com/c/jamesqquick"
         className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />

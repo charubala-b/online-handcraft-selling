@@ -67,7 +67,7 @@ const Women=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\chain.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
+                  <h3 className="imagecontent">Casual Wear NeckPiece <span>$999.00</span></h3>
                   <button className="buy1">Buy</button>
                   <button className="sell1">Add To Cart</button>
                 </div>
@@ -77,7 +77,7 @@ const Women=()=>{
                       
                 <img src="src\Components\jewellery.jpeg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
+                  <h3 className="imagecontent">Luxurious NeckPiece <span>$4599.00</span></h3>
                   <button className="buy1">Buy</button>
                   <button className="sell1">Add To Cart</button>
                 </div>
@@ -87,7 +87,7 @@ const Women=()=>{
                           
                 <img src="src\Components\beads.jpg" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
+                  <h3 className="imagecontent">Pearl Beads <span>$599.00</span></h3>
                   <button className="buy1">Buy</button>
                   <button className="sell1">Add To Cart</button>
                 </div>

@@ -74,7 +74,7 @@ const Bag=()=>{
                 <img src="src\Components\bag5.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <button className="buy1">Buy</button>
                 </div>
                 <div className="monopic">
 
@@ -83,7 +83,7 @@ const Bag=()=>{
                 <img src="src\Components\bag6.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <button className="buy1">Buy</button>
 
                 </div>
             </div>

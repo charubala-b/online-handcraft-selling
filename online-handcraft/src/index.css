@@ -269,6 +269,7 @@ body{
   font-style:bold;  
   font-size:20px;
   margin:30px;
+  margin-bottom: 10px;;
 }
 .heading{
   font-style: italic;

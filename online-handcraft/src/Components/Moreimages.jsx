@@ -11,7 +11,7 @@ const Moreimages=()=>{
             <h4 className="subhead">For this season</h4>
             <h1 className="heading">Trending & Now --------</h1>
              <div className="seeall">
-          <Link to="/seeall">See All</Link>
+             <Link to="/seeall">See All</Link>
              </div>
    
            
@@ -36,7 +36,7 @@ const Moreimages=()=>{
                       
                 <img src="src\Components\pots.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
+                  <h3 className="imagecontent">Ceramic plates <span>$4599.00</span></h3>
                   <button className="buy1">Buy</button>
                   <button className="sell1">Add To Cart</button>
                 </div>
@@ -46,7 +46,7 @@ const Moreimages=()=>{
                           
                 <img src="src\Components\owl.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
+                  <h3 className="imagecontent">A wooden owl statue <span>$1540.00</span></h3>
                   <button className="buy1">Buy</button>
                   <button className="sell1">Add To Cart</button>
 
