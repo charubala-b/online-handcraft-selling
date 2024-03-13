@@ -6,7 +6,7 @@ const Bangles=()=>{
         <section className="moreimages">
          
            
-        <h4 className="subhead">For women</h4>
+        <h4 className="subhead"></h4>
             <h1 className="heading">Bangles</h1>
          
 
@@ -20,8 +20,9 @@ const Bangles=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\ban1.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Handmade Earrings <span>$540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Thread Bangles <span>$540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -30,7 +31,8 @@ const Bangles=()=>{
                 <img src="src\Components\ban2.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Handmade bags-Unique <span>$1299.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -38,8 +40,9 @@ const Bangles=()=>{
                           
                 <img src="src\Components\ban3.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Wholesale Products <span>$2799.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Beautiful Bangles <span>$799.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
             </div>
 
@@ -64,8 +67,9 @@ const Bangles=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\ban4.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Stone Bangles <span>$740.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -73,8 +77,9 @@ const Bangles=()=>{
                       
                 <img src="src\Components\ban5.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Thread with Beads Bangles <span>$499.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -82,8 +87,9 @@ const Bangles=()=>{
                           
                 <img src="src\Components\ban6.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Plastic Bangle <span>$340.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
 
                 </div>
             </div>

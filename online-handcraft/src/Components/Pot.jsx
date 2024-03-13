@@ -6,8 +6,8 @@ const Pot=()=>{
         <section className="moreimages">
          
            
-        <h4 className="subhead">For women</h4>
-            <h1 className="heading">Bangles</h1>
+        <h4 className="subhead"></h4>
+            <h1 className="heading">Pots</h1>
          
 
             <div className="pictures">
@@ -20,8 +20,9 @@ const Pot=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\pot.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Handmade Earrings <span>$540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Antique Wooden Pot <span>$2440.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -29,8 +30,9 @@ const Pot=()=>{
                       
                 <img src="src\Components\pot1.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Handmade bags-Unique <span>$1299.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Cermaic planters <span>$699.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -38,8 +40,9 @@ const Pot=()=>{
                           
                 <img src="src\Components\pot2.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Wholesale Products <span>$2799.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Plastic Pot <span>$299.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
             </div>
 
@@ -64,8 +67,9 @@ const Pot=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\pot3.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Plastic Pots <span>$2540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -73,8 +77,9 @@ const Pot=()=>{
                       
                 <img src="src\Components\pot4.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Planters <span>$599.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -82,8 +87,9 @@ const Pot=()=>{
                           
                 <img src="src\Components\pots.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Ceramic Pots  <span>$5540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
 
                 </div>
             </div>

@@ -8,8 +8,8 @@ const Dress=()=>{
         <section className="moreimages">
          
            
-        <h4 className="subhead">For women</h4>
-            <h1 className="heading">Bangles</h1>
+        <h4 className="subhead"></h4>
+            <h1 className="heading">Dress</h1>
          
 
             <div className="pictures">
@@ -22,8 +22,9 @@ const Dress=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\dress.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Handmade Earrings <span>$540.00</span></h3>
-                  <Link to={`/cart/${img.image}`}><button className="buy">Add to cart</button></Link>
+                  <h3 className="imagecontent">Handmad SKirt <span>$2540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -31,8 +32,9 @@ const Dress=()=>{
                       
                 <img src="src\Components\dress1.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Handmade bags-Unique <span>$1299.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Cotton Frock <span>$1299.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -40,8 +42,9 @@ const Dress=()=>{
                           
                 <img src="src\Components\dress2.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Wholesale Products <span>$2799.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Full Frock <span>$2799.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
             </div>
 
@@ -52,7 +55,7 @@ const Dress=()=>{
       
         <section className="moreimages">
          
-            <h4 className="subhead">More...</h4>
+           
            
                 
 
@@ -66,8 +69,9 @@ const Dress=()=>{
                 <i className="fa-regular fa-heart"></i>
                   <img src="src\Components\dress3.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Woolen Dress <span>$1740.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
                   
@@ -75,8 +79,9 @@ const Dress=()=>{
                       
                 <img src="src\Components\dress4.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Ceramic plates and jugs-Aesthetic appeal <span>$4599.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Short Tops <span>$799.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
 
@@ -84,8 +89,9 @@ const Dress=()=>{
                           
                 <img src="src\Components\dress5.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">A wooden owl statue-Stunning  <span>$1540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <h3 className="imagecontent">Cotton Kurti  <span>$1540.00</span></h3>
+                  <button className="buy1">Buy</button>
+                  <button className="sell1">Add To Cart</button>
 
                 </div>
             </div>
