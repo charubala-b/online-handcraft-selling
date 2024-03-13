@@ -43,9 +43,8 @@ function Slider1() {
   return (
     <>
     <div className="slideshow">
-      <div className="loginbtn">
+    
       <Link className="login"  to="/connect" >Login</Link>
-      </div>
    <div className="icons">
       <div
         onMouseEnter={() => setHeartHovered(true)}

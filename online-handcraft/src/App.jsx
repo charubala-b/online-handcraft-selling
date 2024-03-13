@@ -8,6 +8,9 @@ import Moreimages from "./Components/Moreimages"
 import Moreimages2 from "./Components/Moreimages2"
 import Craftforms from './Components/Craftforms'
 import Women from "./Components/Women"
+import { Outlet } from "react-router-dom"
+import Workingphase from "./Components/Workingphase"
+
 
 
 
@@ -30,10 +33,13 @@ const App=()=>{
         <Craftforms/>
       </section>
       <section>
-        <Women/>
+        <Women/>  
       </section>
-
-
+      <section>
+      <Workingphase/> 
+      </section>
+      <Outlet/>
+       
     </>
   )
 }
