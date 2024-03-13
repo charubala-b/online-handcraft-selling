@@ -1,6 +1,8 @@
 import '@fortawesome/fontawesome-free/css/all.css'
+import { Link } from 'react-router-dom';
 
 const Dress=()=>{
+  const img={image:"src.Components.dress.png"};
     return (
         <>
         <section className="moreimages">
@@ -21,7 +23,7 @@ const Dress=()=>{
                   <img src="src\Components\dress.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Handmade Earrings <span>$540.00</span></h3>
-                  <button className="buy">Buy</button>
+                  <Link to={`/cart/${img.image}`}><button className="buy">Add to cart</button></Link>
                 </div>
                 <div className="monopic">
                   

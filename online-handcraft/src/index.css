@@ -12,7 +12,7 @@
 }
 .info{
   display:flex;
-  background-color: rgb(70, 104, 70);
+  background-color: #66492f	;
   
 }
 .infodiv{
@@ -603,4 +603,77 @@ margin-left: 30px;
     width:40%;
     height:100%;
   
+  }
+  .store{
+    background-color: #376a6a;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sale{
+    background-color: #5ce382;
+    width: 700px;
+    height: 500px;
+
+  }
+  #Oname{
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #Address{
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 134px;
+  }
+  #Amount{
+    width: 200px;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 125px;
+  }
+  #upload{
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+
+  }
+  #sale-button{
+    width: 200px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: #797368;
+  }
+  .Onamel{
+    font-size: 25px;
+    background-color: rgb(212, 152, 152);
+  }
+  .Address1{
+    font-size: 25px;
+    background-color: rgb(212, 152, 152);
+  }
+  .Amount1{
+    font-size: 30px;
+    background-color: rgb(212, 152, 152);
+    margin-top: 100px;
+  }
+  .saleform{
+    margin-left: 150px;
+  }
+  .sale-details{
+    font-size: 35px;
+    margin-left: 80px;
+  }
+  .add-image{
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .file{
+      width: 20px;
+      height: 20px;
   }

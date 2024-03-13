@@ -27,7 +27,7 @@ const Introduction=()=>{
         handleClose={togglePopup}
         />}
 
-        <li className='at'><a href="#">Sale</a></li>
+        <li className='at'><Link to="/sale">Sale</Link></li>
         <li><a href="#">Contact</a></li>
     </ul>
     </nav>

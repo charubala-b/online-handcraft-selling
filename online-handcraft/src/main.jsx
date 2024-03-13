@@ -12,6 +12,8 @@ import Dress from "./Components/Dress.jsx"
 import Statue from "./Components/Statue"
 import Pot from "./Components/Pot"
 import SeeAll from "./Components/SeeAll.jsx"
+import Store from './Components/Store.jsx'
+import Addcart from './Components/Addcart.jsx'
 
 const router=createBrowserRouter([
   {
@@ -48,6 +50,14 @@ const router=createBrowserRouter([
   {
    path:"/seeall",
    element:<SeeAll/>
+  },
+  {
+    path:"/sale",
+    element:<Store/>
+  },
+  {
+    path:"/cart/:image",
+    element:<Addcart/>
   }
   
 ])
