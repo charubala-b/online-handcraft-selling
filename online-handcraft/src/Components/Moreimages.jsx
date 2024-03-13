@@ -3,6 +3,10 @@ import SeeAll from "./SeeAll"
 import { Link } from 'react-router-dom'
 
 const Moreimages=()=>{
+    
+  var cost=2540;
+  var cost1=4599;
+  var cost2=1540;
 
     return (
         <>
@@ -27,7 +31,8 @@ const Moreimages=()=>{
                   <img src="src\Components\feather.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Feathery wall stick <span>$2540.00</span></h3>
-                  <button className="buy1">Buy</button>
+
+                  <Link to={`/pay/${cost1}`}><button className="buy1">Buy</button></Link>
                   <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
@@ -37,7 +42,7 @@ const Moreimages=()=>{
                 <img src="src\Components\pots.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">Ceramic plates <span>$4599.00</span></h3>
-                  <button className="buy1">Buy</button>
+                  <Link to={`/pay/${cost1}`}><button className="buy1">Buy</button></Link>
                   <button className="sell1">Add To Cart</button>
                 </div>
                 <div className="monopic">
@@ -47,7 +52,7 @@ const Moreimages=()=>{
                 <img src="src\Components\owl.png" className="pic"></img>
                   <hr  className="hr"></hr>
                   <h3 className="imagecontent">A wooden owl statue <span>$1540.00</span></h3>
-                  <button className="buy1">Buy</button>
+                  <Link to={`/pay/${cost}`}><button className="buy1">Buy</button></Link>
                   <button className="sell1">Add To Cart</button>
 
                 </div>

@@ -1,9 +1,10 @@
 
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 
 const Checkout=()=>{
-   
+   const {cost}=useParams();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -26,7 +27,9 @@ const Checkout=()=>{
   };
 
   return (
-    <div>
+    <>
+    <h1>{cost}</h1>
+    <div clasName="personal">
       <h2>Personal Information</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -48,6 +51,7 @@ const Checkout=()=>{
         <button type="submit">Submit</button>
       </form>
     </div>
+    </>
   );
 };
 

@@ -14,6 +14,7 @@ import Pot from "./Components/Pot"
 import SeeAll from "./Components/SeeAll.jsx"
 import Store from './Components/Store.jsx'
 import Addcart from './Components/Addcart.jsx'
+import Checkout from "./Components/Checkout.jsx"
 
 const router=createBrowserRouter([
   {
@@ -58,6 +59,12 @@ const router=createBrowserRouter([
   {
     path:"/cart/:image",
     element:<Addcart/>
+  },{
+    path:"/pay/:cost",
+    element:<Checkout/>
+  },{
+    path:"/pay",
+    element:<Checkout/>
   }
   
 ])
