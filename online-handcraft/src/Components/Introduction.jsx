@@ -15,11 +15,11 @@ const Introduction=()=>{
         <div>
 <div>
 
-    <nav>
+    <nav >
         <link title='Online craft' to =""></link>
 
 <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="\">Home</a></li>
         <li><Link to="/ourstory">Our Story</Link></li>
         <li><a href="#" onClick={togglePopup}>Shop</a></li>
         {isOpen && <Popup
