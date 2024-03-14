@@ -17,6 +17,8 @@ const Ourstory=()=>{
                          and spreads across the length and breadth of the land. It is our effort to curate an undeniably unique selection 
                          of traditional art and craft translated into a range of beautiful, contemporary products.</p>
                     </div>
+                    <div className="storyimage">
+                    <img src="\src\Components\dressstiching.jpg" className="storydress"></img></div>
                 </div>
                 <div className="content-second">
                     <div className="info2">

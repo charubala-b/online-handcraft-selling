@@ -26,9 +26,11 @@ const App=()=>{
     <Introduction/>
     <Slider/>  
     </section>  
+    <hr></hr>
     <section className="sell">
       <Sellbuys/>
       </section>
+      <hr></hr>
       <section className="more">
       <Moreimages/>
       <Moreimages2/>
@@ -45,9 +47,11 @@ const App=()=>{
       <section>
         <Men/>
       </section>
+      <hr></hr>
       <section>
         <Contact/>
         <SocialIcons/>
+        <hr></hr>
       </section>
       
 
