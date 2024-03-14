@@ -53,7 +53,7 @@ const App=()=>{
         <SocialIcons/>
         <hr></hr>
       </section>
-      <Checkout/>s
+      <Checkout/>
 
       <Outlet/>
        

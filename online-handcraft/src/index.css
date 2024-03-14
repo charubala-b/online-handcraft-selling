@@ -807,6 +807,113 @@ margin-left: 30px;
     background-color:#4CAF50;
   }
 
-  .personal{
-    background-color:#376a6a
+  .payment{
+    background-color: rgb(122,122,121);
   }
+  
+
+  .bdy {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.containers {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color:white;
+  
+}
+.payment{
+  background-color:rgb(122,122,121);
+}
+
+.containers h2 {
+    margin: 2px ;
+    margin-left:35%;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+ .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.cont {
+    max-width: 600px;
+    margin-left:40%;
+    margin:50px auto;
+    padding: 20px;
+    background-color:rgb(122,122,121);
+}
+
+.containitems {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    font-style:italic;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 0px;
+}
+.buy2 {
+    padding: 5px 10px;
+    
+    color: Black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:20px;
+    font-family: sans-serif;
+    font-style:italic;
+}
+
+.buy2:hover {
+    background-color: red;
+}
+.table{
+  margin: 25px auto;
+  font-size:20px;
+
+  
+}
+.table tr{
+  margin:70px;
+}
+.cont h2{
+    margin :0px 35%;
+}

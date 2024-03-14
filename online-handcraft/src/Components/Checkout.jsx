@@ -28,30 +28,47 @@ const Checkout=()=>{
 
   return (
     <>
-    <h1>{cost}</h1>
-    <div clasName="personal">
-      <h2>Personal Information</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="firstName">First Name:</label>
-          <input type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleChange} required />
-        </div>
-        <div>
-          <label htmlFor="lastName">Last Name:</label>
-          <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} required />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
-        </div>
-        <div>
-          <label htmlFor="phoneNumber">Phone Number:</label>
-          <input type="tel" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} required />
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+    <section className="payment">
+    
+    <div className="bdy">
+    <div>
+    <div className="containers">
+        <h2>Checkout</h2>
+        <form>
+            <div className="form-group">
+                <label htmlFor="name">Name</label>
+                <input type="text" id="name" name="name" required/>
+            </div>
+            <div className="form-group">
+                <label htmlFor="email">Email</label>
+                <input type="email" id="email" name="email" required/>
+            </div>
+            <div className="form-group">
+                <label htmlFor="cardNumber">Card Number</label>
+                <input type="text" id="cardNumber" name="cardNumber" required/>
+            </div>
+            <div className="form-group">
+                <label htmlFor="expiry">Product Quantity</label>
+                <input type="text" id="expiry" name="expiry" placeholder="0"/>
+            </div>
+            <div className="form-group">
+                <label htmlFor="expiry">Total Amout</label>
+                <input type="text" id="expiry" name="expiry" placeholder={cost} />
+            </div>
+            <div className="form-group">
+                <label htmlFor="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required/>
+            </div>
+            <button type="submit" className="btn">Pay Now</button>
+        </form>
     </div>
+    </div>
+    </div>
+    </section>
+   
+   
     </>
+    
   );
 };
 
