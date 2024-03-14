@@ -11,9 +11,9 @@ const Sellbuys=()=>{
             <p>Every purchase has purpose</p>
             </div>
             <div className="sec-margin">
-            <button className="buy1">Buy</button>
+            <button className="sellbuy1">Buy</button>
             <br></br>
-            <button className="sell1">Sell</button>
+            <button className="sellbuy2">Sell</button>
             </div>
 </div>
 
