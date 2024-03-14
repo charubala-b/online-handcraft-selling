@@ -49,7 +49,7 @@ const App=()=>{
         <Contact/>
         <SocialIcons/>
       </section>
-      <Checkout/>
+      
 
       <Outlet/>
        
