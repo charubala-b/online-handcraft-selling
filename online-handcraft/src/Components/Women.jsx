@@ -25,34 +25,41 @@ const Women=()=>{
        const addDetails1=()=>{
          setVal([...val,{name:name1,amount:cost1}]);
          console.log(val)
+         alert("Added to cart")
      }
      const addDetails2=()=>{
        setVal([...val,{name:name2,amount:cost2}]);
        console.log(val)
+       alert("Added to cart")
      }
      const addDetails3=()=>{
        setVal([...val,{name:name3,amount:cost3}]);
        console.log(val)
+       alert("Added to cart")
      }
      const addDetails4=()=>{
        setVal([...val,{name:name4,amount:cost4}]);
        console.log(val)
+       alert("Added to cart")
      }
      const addDetails5=()=>{
        setVal([...val,{name:name5,amount:cost5}]);
        console.log(val)
+       alert("Added to cart")
      }
      const addDetails6=()=>{
        setVal([...val,{name:name6,amount:cost6}]);
        console.log(val)
+       alert("Added to cart")
      }
     return (
         <>
         <section className="moreimages">
          
-           
-        <h4 className="subhead">For women</h4>
-            <h1 className="heading">Choice for <p>the season --------</p></h1>
+        <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`} className="gtc">Go to Cart</Link>
+
+        <h4 className="subhead"></h4>
+            <h1 className="heading">For women ------- </h1>
             <button className="seeall">See All</button>
 
             <div className="pictures">
@@ -89,6 +96,7 @@ const Women=()=>{
                   <Link to={`/pay/${cost3}`}><button className="buy1">Buy</button></Link>
                   <button className="sell1" onClick={addDetails3}>Add To Cart</button>
                 </div>
+                
             </div>
 
         </section>
@@ -97,7 +105,7 @@ const Women=()=>{
  
       
         <section className="moreimages">
-         
+        
             <h4 className="subhead">More...</h4>
            
                 
@@ -136,7 +144,7 @@ const Women=()=>{
                   <Link to={`/pay/${cost6}`}><button className="buy1">Buy</button></Link>
                   <button className="sell1" onClick={addDetails6}>Add To Cart</button>
                 </div>
-                <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`}>Go to Destination</Link>
+              
 
             </div>
 

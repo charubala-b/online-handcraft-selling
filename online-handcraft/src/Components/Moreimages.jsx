@@ -16,22 +16,26 @@ const Moreimages=()=>{
   const addDetails1=()=>{
       setVal([...val,{name:name,amount:cost}]);
       console.log(val)
+      alert("Added to cart")
   }
   const addDetails2=()=>{
     setVal([...val,{name:name1,amount:cost1}]);
     console.log(val)
+    alert("Added to cart")
 }
 const addDetails3=()=>{
   setVal([...val,{name:name2,amount:cost2}]);
   console.log(val)
+  alert("Added to cart")
 }
 
     return (
         <>
         <section className="moreimages">
-         
-            <h4 className="subhead">For this season</h4>
+        <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`} className="gtc">Go to Cart</Link>
+            
             <h1 className="heading">Trending & Now --------</h1>
+            
              <div className="seeall">
              <Link to="/seeall">See All</Link>
              </div>
@@ -74,7 +78,7 @@ const addDetails3=()=>{
                   <button className="sell1" onClick={addDetails3}>Add To Cart</button>
 
                 </div>
-                <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`}>Go to Destination</Link>
+
             </div>
 
         </section>

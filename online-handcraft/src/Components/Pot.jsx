@@ -22,26 +22,32 @@ const Pot=()=>{
   const addDetails1=()=>{
     setVal([...val,{name:name1,amount:cost1}]);
     console.log(val)
+    alert("Added to cart")
 }
 const addDetails2=()=>{
   setVal([...val,{name:name2,amount:cost2}]);
   console.log(val)
+  alert("Added to cart")
 }
 const addDetails3=()=>{
   setVal([...val,{name:name3,amount:cost3}]);
   console.log(val)
+  alert("Added to cart")
 }
 const addDetails4=()=>{
   setVal([...val,{name:name4,amount:cost4}]);
   console.log(val)
+  alert("Added to cart")
 }
 const addDetails5=()=>{
   setVal([...val,{name:name5,amount:cost5}]);
   console.log(val)
+  alert("Added to cart")
 }
 const addDetails6=()=>{
   setVal([...val,{name:name6,amount:cost6}]);
   console.log(val)
+  alert("Added to cart")
 }
 
 
@@ -50,10 +56,12 @@ const addDetails6=()=>{
     return (
         <>
         <section className="moreimages">
-         
+        <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`} className="gtc">Go to Cart</Link>
            
         <h4 className="subhead"></h4>
+
             <h1 className="heading">Pots</h1>
+            
          
 
             <div className="pictures">
@@ -138,7 +146,7 @@ const addDetails6=()=>{
                   <button className="sell1" onClick={addDetails6}>Add To Cart</button>
 
                 </div>
-                <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`}>Go to Destination</Link>
+                
  
             </div>
 

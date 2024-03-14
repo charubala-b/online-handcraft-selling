@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Popup from './Popup';
 import { Link } from 'react-router-dom';
-
+import Contact from "./Contact"
 
 const Introduction=()=>{
     const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +28,7 @@ const Introduction=()=>{
         />}
 
         <li className='at'><Link to="/sale">Sale</Link></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
     </nav>
     </div>

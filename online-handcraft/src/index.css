@@ -47,7 +47,7 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   padding: 0.2rem 1.3rem;
-  margin-left: 35px;
+  margin-left: 15px;
   font-size: 20px;
   font-weight: bold;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -62,14 +62,14 @@ nav ul li a::after{
   position:absolute;
   top:0;
   left:0;
-  border-radius: 20px;    
+  border-radius: 10px;    
   z-index:-1;
   transition:0.5s;
 }
 
-a:hover{
+ nav ul li a:hover{
   background-color:beige;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 
@@ -87,7 +87,7 @@ body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(1, 24, 12);
   position:relative;
-  margin-left:50%;
+  margin-left:40%;
   margin-top:20px;
   border-style: none;
   background-color: beige;
@@ -216,15 +216,18 @@ body{
   padding-left: 30px;
   height: 200%;
   width: 100%;
- font-size: 40px;
+   font-size: 40px;
   background-size: 100%;
   position:relative;
   overflow:hidden;
   margin-top:40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-family: fantasy;
 }
 
 
-.buy1{
+.sellbuy1{
   width:15%;
   font-size:25px;
   font-style: italic;
@@ -232,24 +235,25 @@ body{
   text-align: center;
   box-shadow:1px 3px 8px #640b0b;
   margin-top: 60px;
- 
+    font-family: cursive;
   border-radius: 10px;
   height: 50px;
-  font-style: italic;
+ 
   
-
 }
-.sell1{
+
+.sellbuy2{
   width:15%;
   font-size:35px;
   font-style: italic;
   background-color: beige;
   box-shadow:1px 3px 8px #640b0b;
-  margin-top: 80px;
- margin-left:90px;
+  margin-top: 70px;
+  font-family:sans-serif;
   border-radius: 10px;
   height: 50px;
   font-style: italic;
+ 
 }
 
 
@@ -393,7 +397,7 @@ Popup{
   background-color:rgb(183, 183, 175);
   width: 450px;
   padding: 20px;
-  margin-top: 300px;
+  margin-top: 250px;
   margin-left: 70px;
   opacity: 80%;
   border-radius: 10px;
@@ -406,7 +410,7 @@ Popup{
   font-size: larger;
 }
 .content-first{
-  background-color: #d4d4cd;
+  background-color:burlywood;
   height: 750px;
   color:rgb(13, 73, 13);
 }
@@ -417,8 +421,9 @@ Popup{
   position: absolute;
   top: 0;
   right: 0;
-  margin-top: 15%; 
-  margin-right: 120px; 
+  margin-top: 20%; 
+  margin-left:10px; 
+  margin-right: 5px;
   
   border-radius: 25px;
 }
@@ -433,9 +438,10 @@ Popup{
   margin-left: 10px;
 }
 .info1{
-  font-size: 35px;
+  font-size: 25px;
   font-family: cursive;
   margin-left: 10px;
+  padding-top:10px;
 }
 .top{
   position: sticky;
@@ -443,19 +449,23 @@ Popup{
 }
 .whole{
   background-color:beige;
+  box-shadow: 2px 2px 2px black;
   display: flex;
   justify-content: center;
-  padding: 10%;
+ 
+  padding: 7%;
 }
 .first{
-  background-color: rgb(18, 122, 34);
+  background-color: white;
   display: flex;
+  border:2px solid black;
   border-color: black;
   border: solid;
   justify-content: center;
   width: 500px;
   padding: 5%;
   margin-top: 2px;
+  box-shadow: 2px 2px 2px black;
   opacity: 60%;
 }
 .form{
@@ -500,13 +510,14 @@ Popup{
 }
 .infos2{
   width: 1000px;
-  margin-top: 120px;
+  margin-top: 100px;
   margin-left: 200px;
 }
 .info2{
   font-size: 45px;
   font-family: cursive;
   margin-left: 20px;
+  padding-top:20px;
 }
 .title-name1{
   font-family: cursive;
@@ -628,15 +639,16 @@ margin-left: 30px;
   }
   .store{
     background-color: #939b9b;
-    height: 800px;
+    height: 700px;    
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .sale{
-    background-color: #cb85e5;
-    width: 700px;
-    height: 500px;
+    background-color: #eeedef;
+    width: 600px;
+    height: 650px;
+    margin-left:10px;
     border:solid;
     border-color: black;
     box-shadow:2px 3px 8px  #640b0b;
@@ -647,18 +659,28 @@ margin-left: 30px;
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
+    border:2px solid black;
   }
   #Address{
     width: 200px;
     padding: 10px;
-    margin-top: 20px;
-    margin-left: 134px;
+    margin-top:10px;
+    margin-left: 10px;
+    border:2px solid black;
   }
   #Amount{
     width: 200px;
     padding: 10px;
-    margin-top: 7px;
-    margin-left: 125px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border:2px solid black;
+  }
+  #Product{
+    width: 200px;
+    padding: 10px;
+    margin-top:10px;
+    margin-left: 10px;
+    border:2px solid black;
   }
   #upload{
     width: 200px;
@@ -670,38 +692,47 @@ margin-left: 30px;
     width: 200px;
     padding: 10px;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 100px;
     border-radius: 10px;
     background-color: #eabe72;
   }
   .Onamel{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
    ;
   }
   .Address1{
-    font-size: 25px;
+    font-size: 20px;
+    margin-top:30px;
+    
+  }
+  .Product1{
+    
+      font-size: 20px;
+      margin-top:30px;
+      
     
   }
   .Amount1{
-    font-size: 30px;
-   ;
-    margin-top: 100px;
+    font-size: 20px;  
+    margin-top: 40px;
   }
   .saleform{
-    margin-left: 150px;
+    margin-left: 30px;
   }
   .sale-details{
-    font-size: 35px;
-    margin-left: 80px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top:10px;
   }
   .add-image{
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 10px;
   }
   .file{
       width: 20px;
       height: 20px;
+      margin-top:50px;
   }
 
   .contact-content{
@@ -726,7 +757,7 @@ margin-left: 30px;
     border-radius: 45px;
   }
   .contact input,.contact textarea{
-    width: 100%;
+    width: 96%;
     padding: 15px;
     border: 0;
     margin-bottom: 10px;
@@ -757,7 +788,7 @@ margin-left: 30px;
 
   .social-container {
     padding: 25px 50px;
-     margin-top: 250px;
+     margin-top: 200px;
     transition: transform 250ms;
     display: flex;
     flex-direction: column;
@@ -879,7 +910,7 @@ button:hover {
     margin-left:40%;
     margin:50px auto;
     padding: 20px;
-    background-color:rgb(122,122,121);
+    background-color:beige;
 }
 
 .containitems {
@@ -916,4 +947,48 @@ button:hover {
 }
 .cont h2{
     margin :0px 35%;
+}
+
+.gtc{   
+  text-decoration: none;
+  width:10px;
+  height:20px;
+  margin-left:90%;
+  margin-top:3px;
+}
+
+.gtc:hover{
+  background-color:beige;
+}
+
+.moreimages h1{
+  font-size:30px;
+  color:black;
+  background-color: beige;
+  box-shadow:2px 2px 2px 2px brown;
+  width:30%;
+}
+
+.moreimages h4{
+       font-size:30px;
+}
+
+.cartnew1{
+  width: 50px;
+  height: 50px;
+  margin:30px;
+}
+.cartnew h1 {
+  margin:20px 20px;
+  font-size:15px;
+  font-style:italic;
+
+
+
+}
+.cartnew h3 {
+  margin:20px 20px;
+  font-size:15px;
+  font-style:italic;
+
 }

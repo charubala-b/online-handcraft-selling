@@ -52,8 +52,9 @@ const addDetails6=()=>{
         <>
         <section className="moreimages">
          
-           
+        <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`} className="gtc">Go to Cart</Link>
         <h4 className="subhead"></h4>
+       
             <h1 className="heading">Bangles</h1>
          
 
@@ -99,8 +100,11 @@ const addDetails6=()=>{
  
       
         <section className="moreimages">
+        
          
             <h4 className="subhead">More...</h4>
+      
+ 
            
                 
 
@@ -124,7 +128,7 @@ const addDetails6=()=>{
                       
                 <img src="src\Components\ban5.png" className="pic"></img>
                   <hr  className="hr"></hr>
-                  <h3 className="imagecontent">Thread with Beads Bangles <span>$499.00</span></h3>
+                  <h3 className="imagecontent"> Beads Bangles <span>$499.00</span></h3>
                   <Link to={`/pay/${cost5}`}><button className="buy1">Buy</button></Link>
                   <button className="sell1" onClick={addDetails5}>Add To Cart</button>
                 </div>
@@ -139,8 +143,7 @@ const addDetails6=()=>{
                   <button className="sell1" onClick={addDetails6}>Add To Cart</button>
 
                 </div>
-                <Link to={`/destination?data=${encodeURIComponent(JSON.stringify(val))}`}>Go to Destination</Link>
- 
+                
             </div>
 
         </section>

@@ -22,7 +22,7 @@ import Checkout from "./Components/Checkout"
 const App=()=>{
   return(
     <>
-    <section className="info">
+    <section className="info" id="info1">
     <Introduction/>
     <Slider/>  
     </section>  

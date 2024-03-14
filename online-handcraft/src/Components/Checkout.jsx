@@ -5,27 +5,10 @@ import { useParams } from 'react-router-dom';
 
 const Checkout=()=>{
    const {cost}=useParams();
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phoneNumber: ''
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-   
-    console.log(formData);
-  };
-
+   const [val,setval]=useState();
+    function carting(){
+    setval((document.getElementById('expiry').value)*cost)
+    }
   return (
     <>
     <section className="payment">
@@ -49,17 +32,17 @@ const Checkout=()=>{
             </div>
             <div className="form-group">
                 <label htmlFor="expiry">Product Quantity</label>
-                <input type="text" id="expiry" name="expiry" placeholder="0"/>
+                <input type="text" id="expiry" name="expiry" placeholder="0"  onChange={carting}/>
             </div>
             <div className="form-group">
                 <label htmlFor="expiry">Total Amout</label>
-                <input type="text" id="expiry" name="expiry" placeholder={cost} />
+                <input type="text" id="expiry" name="expiry" value={val} />
             </div>
             <div className="form-group">
                 <label htmlFor="cvv">CVV</label>
                 <input type="text" id="cvv" name="cvv" required/>
             </div>
-            <button type="submit" className="btn">Pay Now</button>
+            <button type="submit" className="btn" onClick={alert("Payment Completed")}>Pay Now</button>
         </form>
     </div>
     </div>

@@ -23,6 +23,8 @@ const Addcart = () => {
     });
 
     return (
+        <>
+       
         <div className="cont">
             <h2>ADDED PRODUCTS</h2>
             <Table hover className="table">
@@ -36,6 +38,7 @@ const Addcart = () => {
                 <tbody>{tableRows}</tbody>
             </Table>
         </div>
+        </>
     );
 }
 

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 const Sellbuys=()=>{
 
 
@@ -11,9 +11,9 @@ const Sellbuys=()=>{
             <p>Every purchase has purpose</p>
             </div>
             <div className="sec-margin">
-            <button className="buy1">Buy</button>
+            <button className="sellbuy1">Buy</button>
             <br></br>
-            <button className="sell1">Sell</button>
+           <Link to="/sale"><button className="sellbuy2">Sell</button></Link> 
             </div>
 </div>
 

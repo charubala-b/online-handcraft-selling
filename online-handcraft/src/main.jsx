@@ -16,9 +16,14 @@ import Store from './Components/Store.jsx'
 import Addcart from './Components/Addcart.jsx'
 import Checkout from "./Components/Checkout.jsx"
 
+
 const router=createBrowserRouter([
   {
     path:"/",
+    element:<App/>
+  },
+  {
+    path:"/afterlogin",
     element:<App/>
   },
   {

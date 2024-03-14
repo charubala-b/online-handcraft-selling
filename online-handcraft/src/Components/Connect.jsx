@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Connect = () => {
 
@@ -44,15 +45,16 @@ const Connect = () => {
     return (
         <>
         <div className='whole'>
+            <img src="src\Components\loginimage.png" className="loginimage"></img>
         <div className='first'>
             <div>
             <form className='form'>
             <h1 className='login-head'>Login</h1>
-            <input type="text" placeholder="john" id="username"/>
+            <input type="text" placeholder="Enter Name" id="username" required/>
             <br/>
-            <input type="password" placeholder="3243" id="password"/>
+            <input type="password" placeholder="Enter password" id="password" required/>
             <br/>
-            <button id="addentry" type="button" onClick={handleAddNewEntry}>Submit</button>
+          <Link to="/afterlogin"><button id="addentry" type="button" onClick={handleAddNewEntry}>Login</button></Link>  
             </form>
             </div>
         </div>
